@@ -55,6 +55,13 @@ button {
   background: #fff3;
   border-radius: 4px;
 }
+#todo-list li:hover {
+  background: #fff6;
+}
+
+#todo-input {
+  padding: 0 25px 0 5px;
+}
 .completed {
   text-decoration: line-through;
   opacity: 0.7;
