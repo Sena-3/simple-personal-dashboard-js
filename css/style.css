@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light {
+    background-image: url(../images/light_theme.jpg);
+    background-position: right center;
+    background-size: cover;
+    color: #333;
+}
+
+.dark {
+  background-image: url(../images/dark_theme.jpeg);
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+section {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.05);
+}
+
+button {
+  margin-left: 5px;
+  padding: 0 25px 0 5px;
+  cursor: pointer;
+}
+
+#theme-toggle {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+/* To-do */
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px;
+  background: #fff3;
+  border-radius: 4px;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* 天気 */
+#weather input {
+  padding: 0 25px 0 5px;
+}
+#get-weather {
+  padding: 0 25px 0 5px;
+}
+.toggle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1em;
+}

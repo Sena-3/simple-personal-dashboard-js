@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Productivity Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light">
+<div class="container">
+    <header>
+         <div id="header">
+            <h1>🧭 Personal Dashboard</h1>
+            <h2>パーソナル・ダッシュボード</h2><br>
+            <p>ここでは、日付、To-Doリスト、天気情報を一つの場所で管理できます。</p>
+        </div>
+        <div class="toggle">
+            <button id="theme-toggle">Dark / Light Mode</button>
+        </div>
+    </header>
+    <!--　Kalender / Jam -->
+    <section id="clock">
+      <h2>📅 今日の日付</h2>
+      <p id="datetime"></p>
+    </section>
+    <!-- Cuaca -->
+    <section id="weather">
+      <h2>🌤️ 天気</h2>
+      <input type="text" id="city-input" placeholder="記入例：Tokyoと記入してください">
+      <button id="get-weather">チェックする</button>
+      <div id="weather-info"></div>
+    </section>
+    <!-- To-do List -->
+    <section id="todo">
+      <h2>📝 To-Do リスト</h2>
+      <input type="text" id="todo-input" placeholder="タスクを追加...">
+      <button id="add-btn">追加</button>
+      <ul id="todo-list"></ul>
+    </section>
+</div>
+<div>
+    <footer>
+        <p>作成者: Rofbig Adi Sena | <a href="https://github.com/Sena-3">GitHub</a></p>
+    </footer>
+</div>
+  <script src="js/script.js"></script>
+</body>
+</html>
