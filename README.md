@@ -31,7 +31,7 @@ HTML、CSS、JavaScript を使用して、シンプルで使いやすいパー�
 
 ## 🌐 デモ
 
-> GitHub Pages でホスト予定:  
+> GitHub Pages でホスト:  
 > [sena-3.github.io/simple-personal-dashboard-js/](https://sena-3.github.io/simple-personal-dashboard-js/)
 
 ---
