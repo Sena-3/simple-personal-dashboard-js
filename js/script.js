@@ -1,4 +1,4 @@
-// =============== 1️⃣　TO-DO LIST ===============
+// =============== TO-DO LIST ===============
 const addBtn = document.getElementById('add-btn');
 const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
@@ -29,7 +29,7 @@ function addTodo() {
   });
 }
 
-// =============== 2️⃣ CLOCK / DATE ===============
+// =============== CLOCK / DATE ===============
 const datetimeEl = document.getElementById('datetime');
 function updateTime() {
   const now = new Date();
@@ -38,7 +38,7 @@ function updateTime() {
 setInterval(updateTime, 1000);
 updateTime();
 
-// =============== 3️⃣ WEATHER API ===============
+// =============== WEATHER API ===============
 const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
 const getWeatherBtn = document.getElementById('get-weather');
 const cityInput = document.getElementById('city-input');
@@ -67,7 +67,7 @@ getWeatherBtn.addEventListener('click', async () => {
   `;
 });
 
-// =============== 4️⃣ THEME TOGGLE ===============
+// =============== THEME TOGGLE ===============
 const toggleBtn = document.getElementById('theme-toggle');
 toggleBtn.addEventListener('click', () => {
   document.body.classList.toggle('dark');
